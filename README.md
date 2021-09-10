@@ -72,18 +72,18 @@ Jenkins-сервер.
 ## Задача 2
 Скачал образ с апачем
 
-vagrant@vagrant:~$ sudo docker pull httpd
-Using default tag: latest
-latest: Pulling from library/httpd
-a330b6cecb98: Pull complete
-14e3dd65f04d: Pull complete
-fe59ad2e7efe: Pull complete
-2cb26220caa8: Pull complete
-3138742bd847: Pull complete
-Digest: sha256:af1199cd77b018781e2610923f15e8a58ce22941b42ce63a6ae8b6e282af79f5
-Status: Downloaded newer image for httpd:latest
-docker.io/library/httpd:latest
-vagrant@vagrant:~$
+	vagrant@vagrant:~$ sudo docker pull httpd
+	Using default tag: latest
+	latest: Pulling from library/httpd
+	a330b6cecb98: Pull complete
+	14e3dd65f04d: Pull complete
+	fe59ad2e7efe: Pull complete
+	2cb26220caa8: Pull complete
+	3138742bd847: Pull complete
+	Digest: sha256:af1199cd77b018781e2610923f15e8a58ce22941b42ce63a6ae8b6e282af79f5
+	Status: Downloaded newer image for httpd:latest
+	docker.io/library/httpd:latest
+	vagrant@vagrant:~$
 
 vagrant@vagrant:~$ sudo docker images
 REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
